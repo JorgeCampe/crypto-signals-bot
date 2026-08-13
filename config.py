@@ -63,7 +63,7 @@ _DEFAULT_SERIES = (
     "KXXRP:XRP:XRP-USD,"      # XRP rango
     "KXDOGED:DOGE:DOGE-USD"   # Dogecoin diario
 )
-SERIES = os.getenv("CRYPTO_SERIES", _DEFAULT_SERIES)
+SERIES = os.getenv("CRYPTO_SERIES") or _DEFAULT_SERIES
 
 # ----- modo LIVE (ordenes reales) — OPT-IN, apagado por defecto --------------
 LIVE = os.getenv("KALSHI_LIVE", "0") == "1"     # 1 = coloca ordenes REALES en Kalshi
