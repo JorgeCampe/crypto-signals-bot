@@ -1,0 +1,1 @@
+id,opened_ts,asset,series,market_ticker,event_ticker,title,sub_title,strike_type,floor,cap,side,action,close_time,spot_at_open,p_model,kalshi_prob,odds,edge_pct,kelly_pct,stake,count,live,order_id,status,settle_price,settled_ts,pnl,product

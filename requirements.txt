@@ -1,0 +1,2 @@
+pandas
+cryptography   # solo se usa en modo LIVE (firmar ordenes). El modo paper no lo necesita.

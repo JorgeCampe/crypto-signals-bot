@@ -1,0 +1,51 @@
+name: Crypto Signals Bot
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"      # cada 30 min (hora UTC). Cripto es 24/7.
+  workflow_dispatch: {}          # boton para correrlo a mano
+
+permissions:
+  contents: write                # para guardar el estado (banca, posiciones)
+
+concurrency:
+  group: crypto-bot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Correr el bot
+        env:
+          # --- MODO LIVE (opcional) ---------------------------------------
+          # Deja estos Secrets sin crear para seguir en PAPER (seguro).
+          # Para operar de verdad, crealos en Settings -> Secrets and variables
+          # -> Actions, y ademas pon la variable KALSHI_LIVE=1.
+          KALSHI_LIVE: ${{ secrets.KALSHI_LIVE }}
+          KALSHI_API_KEY_ID: ${{ secrets.KALSHI_API_KEY_ID }}
+          KALSHI_PRIVATE_KEY: ${{ secrets.KALSHI_PRIVATE_KEY }}
+          # --- ajustes opcionales (o edita config.py) ---------------------
+          CRYPTO_BANKROLL: ${{ vars.CRYPTO_BANKROLL }}
+          CRYPTO_MIN_EDGE: ${{ vars.CRYPTO_MIN_EDGE }}
+          CRYPTO_SERIES: ${{ vars.CRYPTO_SERIES }}
+        run: python crypto_signals_bot/bot.py
+
+      - name: Publicar dashboard y guardar estado
+        run: |
+          mkdir -p docs
+          cp crypto_signals_bot/dashboard.html docs/index.html
+          git config user.name "crypto-signals-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add crypto_signals_bot/data crypto_signals_bot/dashboard.html docs/index.html 2>/dev/null || true
+          git commit -m "bot: $(date -u +%FT%TZ)" || echo "sin cambios que commitear"
+          git push
