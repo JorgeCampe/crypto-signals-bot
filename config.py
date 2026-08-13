@@ -30,7 +30,7 @@ KALSHI_ENABLED = os.getenv("KALSHI_ENABLED", "1") == "1"
 
 # ----- banca y dimensionamiento (paper) -------------------------------------
 START = _f("CRYPTO_BANKROLL", 250.0)            # banca inicial simulada
-MIN_EDGE = _f("CRYPTO_MIN_EDGE", 0.06)          # ventaja minima modelo vs Kalshi para operar
+MIN_EDGE = _f("CRYPTO_MIN_EDGE", 0.03)          # ventaja minima modelo vs Kalshi para operar
 KELLY_FRAC = _f("CRYPTO_KELLY_FRAC", 0.125)     # 1/8 de Kelly (cripto es volatil: prudente)
 MAX_STAKE_FRAC = _f("CRYPTO_MAX_STAKE_FRAC", 0.10)   # tope por operacion (10% de la banca)
 MAX_EXPOSURE_FRAC = _f("CRYPTO_MAX_EXPOSURE", 0.60)  # tope de banca total en juego a la vez
@@ -38,9 +38,9 @@ MIN_STAKE = _f("CRYPTO_MIN_STAKE", 1.0)         # operacion minima en $
 EDGE_CAP = _f("CRYPTO_EDGE_CAP", 0.15)          # topa el edge para dimensionar (edges enormes = el modelo se equivoca)
 
 # ----- filtros de calidad de senal ------------------------------------------
-MIN_VOLUME = _f("CRYPTO_MIN_VOLUME", 2000)      # contratos 24h minimos (mercados finos = precios falsos)
+MIN_VOLUME = _f("CRYPTO_MIN_VOLUME", 300)      # contratos 24h minimos (mercados finos = precios falsos)
 MIN_HOURS = _f("CRYPTO_MIN_HOURS", 0.5)         # no operar a menos de 30 min del cierre (settlement ruidoso)
-MAX_HOURS = _f("CRYPTO_MAX_HOURS", 36.0)        # ni mercados a mas de 36 h (el modelo pierde validez)
+MAX_HOURS = _f("CRYPTO_MAX_HOURS", 48.0)        # ni mercados a mas de 36 h (el modelo pierde validez)
 MAX_ODDS = _f("CRYPTO_MAX_ODDS", 3.0)           # tope de cuota: evita longshots que sangran
 # la log-normal falla en las colas -> solo operar donde la prob del modelo es "de mercado"
 PROB_FLOOR = _f("CRYPTO_PROB_FLOOR", 0.10)      # ignora si el modelo dice < 10%
