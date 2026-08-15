@@ -1,4 +1,1 @@
 ts,asset,series,market_ticker,title,sub_title,strike_type,floor,cap,side,action,close_time,hours_left,spot,sigma_ann,p_model,kalshi_prob,odds,edge_pct,kelly_pct,stake,volume,event_ticker
-2026-08-15T20:14:06.072186+00:00,BTC,KXBTCD,KXBTCD-26AUG1517-T62999.99,"Bitcoin price on Aug 15, 2026?","$63,000 or above",greater,62999.99,,no,buy,2026-08-15T21:00:00Z,0.77,63009.97,24.4,0.464,0.335,2.983,38.4,7.6,2.25,568117.89,KXBTCD-26AUG1517
-2026-08-15T20:14:06.072186+00:00,BTC,KXBTC,KXBTC-26AUG1517-B63125,"Bitcoin price range on Aug 15, 2026?","$63,000 to 63,249.99",between,63000.0,63249.99,no,buy,2026-08-15T21:00:00Z,0.77,63009.97,24.4,0.503,0.386,2.588,30.2,9.4,2.81,25816.22,KXBTC-26AUG1517
-2026-08-15T20:14:06.072186+00:00,BTC,KXBTC,KXBTC-26AUG1517-B62875,"Bitcoin price range on Aug 15, 2026?","$62,750 to 62,999.99",between,62750.0,62999.99,yes,buy,2026-08-15T21:00:00Z,0.77,63009.97,24.4,0.433,0.366,2.733,18.2,8.7,2.58,39505.65,KXBTC-26AUG1517
