@@ -74,7 +74,7 @@ def signals(min_edge=None, bankroll=None, min_volume=None):
         side, p_side, o, edge, ask = max(opts, key=lambda x: x[3])
         if edge < min_edge or o > config.MAX_ODDS or o <= 1:
             continue
-        f = (p_side * o - 1) / (o - 1)          # fraccion de Kelly plena
+        f = min(p_side * o - 1, config.EDGE_CAP) / (o - 1)          # Kelly con edge TOPADO (edges enormes = modelo equivocado)
         if f <= 0:
             continue
         stake = round(bankroll * min(f * config.KELLY_FRAC, config.MAX_STAKE_FRAC), 2)
