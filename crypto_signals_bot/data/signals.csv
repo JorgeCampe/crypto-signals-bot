@@ -1,1 +1,2 @@
 ts,asset,series,market_ticker,title,sub_title,strike_type,floor,cap,side,action,close_time,hours_left,spot,sigma_ann,p_model,kalshi_prob,odds,edge_pct,kelly_pct,stake,volume,event_ticker
+2026-08-18T19:47:25.484788+00:00,BTC,KXBTC,KXBTC-26AUG1817-B64625,"Bitcoin price range on Aug 18, 2026?","$64,500 to 64,749.99",between,64500.0,64749.99,no,buy,2026-08-18T21:00:00Z,1.21,64648.125,22.4,0.365,0.345,2.894,5.5,2.9,0.77,10170.73,KXBTC-26AUG1817
