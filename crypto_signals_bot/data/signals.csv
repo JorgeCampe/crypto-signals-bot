@@ -1,1 +1,2 @@
 ts,asset,series,market_ticker,title,sub_title,strike_type,floor,cap,side,action,close_time,hours_left,spot,sigma_ann,p_model,kalshi_prob,odds,edge_pct,kelly_pct,stake,volume,event_ticker
+2026-08-25T19:53:42.514968+00:00,XRP,KXXRP,KXXRP-26AUG2517-B1.4699500,"Ripple price at Aug 25, 2026 at 5pm EDT?",$1.46 to 1.4799,between,1.46,1.4799,no,buy,2026-08-25T21:00:00Z,1.11,1.4689,128.4,0.544,0.386,2.588,40.9,9.4,2.9,225.44,KXXRP-26AUG2517
