@@ -1,3 +1,1 @@
 ts,asset,series,market_ticker,title,sub_title,strike_type,floor,cap,side,action,close_time,hours_left,spot,sigma_ann,p_model,kalshi_prob,odds,edge_pct,kelly_pct,stake,volume,event_ticker
-2026-08-26T14:36:17.306125+00:00,XRP,KXXRP,KXXRP-26AUG2617-B1.3899500,"Ripple price at Aug 26, 2026 at 5pm EDT?",$1.38 to 1.3999,between,1.38,1.3999,no,buy,2026-08-26T21:00:00Z,6.4,1.3778,129.8,0.804,0.773,1.294,4.1,13.8,4.32,239.96,KXXRP-26AUG2617
-2026-08-26T14:36:17.306125+00:00,SOL,KXSOLD,KXSOLD-26AUG2617-T95.9999,"SOL price on Aug 26, 2026?",$96 or above,greater,95.9999,,no,buy,2026-08-26T21:00:00Z,6.4,95.76,76.7,0.569,0.557,1.794,2.1,2.6,0.82,1978.37,KXSOLD-26AUG2617
