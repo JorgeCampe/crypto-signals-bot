@@ -1,4 +1,1 @@
 ts,asset,series,market_ticker,title,sub_title,strike_type,floor,cap,side,action,close_time,hours_left,spot,sigma_ann,p_model,kalshi_prob,odds,edge_pct,kelly_pct,stake,volume,event_ticker
-2026-09-04T19:44:18.486958+00:00,SOL,KXSOLE,KXSOLE-26SEP0417-B101,"SOL price on Sep 4, 2026?",$101 to 101.9999,between,101.0,101.9999,no,buy,2026-09-04T21:00:00Z,1.26,101.675,86.4,0.55,0.427,2.342,28.8,11.2,3.04,2043.97,KXSOLE-26SEP0417
-2026-09-04T19:44:18.486958+00:00,XRP,KXXRP,KXXRP-26SEP0417-B1.4099500,"Ripple price at Sep 4, 2026 at 5pm EDT?",$1.4 to 1.4199,between,1.4,1.4199,no,buy,2026-09-04T21:00:00Z,1.26,1.4013,123.3,0.608,0.497,2.01,22.2,14.8,4.05,207.0,KXXRP-26SEP0417
-2026-09-04T19:44:18.486958+00:00,XRP,KXXRP,KXXRP-26SEP0417-B1.3899500,"Ripple price at Sep 4, 2026 at 5pm EDT?",$1.38 to 1.3999,between,1.38,1.3999,no,buy,2026-09-04T21:00:00Z,1.26,1.4013,123.3,0.641,0.577,1.732,11.0,15.1,4.11,320.37,KXXRP-26SEP0417
