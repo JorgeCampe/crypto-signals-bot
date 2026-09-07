@@ -1,2 +1,1 @@
 ts,asset,series,market_ticker,title,sub_title,strike_type,floor,cap,side,action,close_time,hours_left,spot,sigma_ann,p_model,kalshi_prob,odds,edge_pct,kelly_pct,stake,volume,event_ticker
-2026-09-07T16:13:53.768185+00:00,XRP,KXXRP,KXXRP-26SEP0717-B1.3899500,"Ripple price at Sep 7, 2026 at 5pm EDT?",$1.38 to 1.3999,between,1.38,1.3999,no,buy,2026-09-07T21:00:00Z,4.77,1.3895,71.9,0.579,0.557,1.794,3.9,4.9,1.2,3708.47,KXXRP-26SEP0717
