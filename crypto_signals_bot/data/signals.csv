@@ -1,3 +1,1 @@
 ts,asset,series,market_ticker,title,sub_title,strike_type,floor,cap,side,action,close_time,hours_left,spot,sigma_ann,p_model,kalshi_prob,odds,edge_pct,kelly_pct,stake,volume,event_ticker
-2026-09-30T18:13:21.538417+00:00,SOL,KXSOLD,KXSOLD-26SEP3017-T119.9999,"SOL price on Sep 30, 2026?",$120 or above,greater,119.9999,,no,buy,2026-09-30T21:00:00Z,2.78,118.985,67.0,0.816,0.782,1.278,4.3,15.5,3.48,10209.3,KXSOLD-26SEP3017
-2026-09-30T18:13:21.538417+00:00,SOL,KXSOLD,KXSOLD-26SEP3017-T118.9999,"SOL price on Sep 30, 2026?",$119 or above,greater,118.9999,,no,buy,2026-09-30T21:00:00Z,2.78,118.985,67.0,0.509,0.497,2.01,2.3,2.2,0.5,22289.34,KXSOLD-26SEP3017
