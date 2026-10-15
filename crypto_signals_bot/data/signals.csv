@@ -1,1 +1,2 @@
 ts,asset,series,market_ticker,title,sub_title,strike_type,floor,cap,side,action,close_time,hours_left,spot,sigma_ann,p_model,kalshi_prob,odds,edge_pct,kelly_pct,stake,volume,event_ticker
+2026-10-15T04:56:17.685626+00:00,SOL,KXSOLD,KXSOLD-26OCT1517-T105.9999,"SOL price on Oct 15, 2026?",$106 or above,greater,105.9999,,no,buy,2026-10-15T21:00:00Z,16.06,103.77,60.5,0.848,0.792,1.263,7.1,27.0,6.09,206.0,KXSOLD-26OCT1517
