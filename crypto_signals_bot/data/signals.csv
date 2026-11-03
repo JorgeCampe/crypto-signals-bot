@@ -1,1 +1,2 @@
 ts,asset,series,market_ticker,title,sub_title,strike_type,floor,cap,side,action,close_time,hours_left,spot,sigma_ann,p_model,kalshi_prob,odds,edge_pct,kelly_pct,stake,volume,event_ticker
+2026-11-03T12:31:38.476474+00:00,SOL,KXSOLD,KXSOLD-26NOV0317-T93.9999,"SOL price on Nov 3, 2026?",$94 or above,greater,93.9999,,no,buy,2026-11-03T22:00:00Z,9.47,93.005,57.8,0.767,0.695,1.438,10.4,23.6,5.57,344.88,KXSOLD-26NOV0317
