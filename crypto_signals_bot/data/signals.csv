@@ -1,1 +1,4 @@
 ts,asset,series,market_ticker,title,sub_title,strike_type,floor,cap,side,action,close_time,hours_left,spot,sigma_ann,p_model,kalshi_prob,odds,edge_pct,kelly_pct,stake,volume,event_ticker
+2026-11-08T20:40:28.664108+00:00,SOL,KXSOLE,KXSOLE-26NOV0817-B89,"SOL price on Nov 8, 2026?",$89 to 89.9999,between,89.0,89.9999,no,buy,2026-11-08T22:00:00Z,1.33,89.105,62.9,0.492,0.335,2.983,46.9,7.6,1.82,3141.53,KXSOLE-26NOV0817
+2026-11-08T20:40:28.664108+00:00,SOL,KXSOLD,KXSOLD-26NOV0817-T88.9999,"SOL price on Nov 8, 2026?",$89 or above,greater,88.9999,,no,buy,2026-11-08T22:00:00Z,1.33,89.105,62.9,0.422,0.376,2.659,12.2,7.3,1.76,4516.4,KXSOLD-26NOV0817
+2026-11-08T20:40:28.664108+00:00,SOL,KXSOLE,KXSOLE-26NOV0817-B88,"SOL price on Nov 8, 2026?",$88 to 88.9999,between,88.0,88.9999,yes,buy,2026-11-08T22:00:00Z,1.33,89.105,62.9,0.379,0.366,2.733,3.6,2.1,0.51,421.57,KXSOLE-26NOV0817
