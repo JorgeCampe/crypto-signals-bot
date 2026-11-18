@@ -1,1 +1,2 @@
 ts,asset,series,market_ticker,title,sub_title,strike_type,floor,cap,side,action,close_time,hours_left,spot,sigma_ann,p_model,kalshi_prob,odds,edge_pct,kelly_pct,stake,volume,event_ticker
+2026-11-18T17:24:40.019505+00:00,SOL,KXSOLD,KXSOLD-26NOV1813-T73.9999,"SOL price on Nov 18, 2026?",$74 or above,greater,73.9999,,no,buy,2026-11-18T18:00:00Z,0.59,73.78,83.9,0.715,0.685,1.459,4.2,9.3,2.37,286.26,KXSOLD-26NOV1813
