@@ -1,2 +1,1 @@
 ts,asset,series,market_ticker,title,sub_title,strike_type,floor,cap,side,action,close_time,hours_left,spot,sigma_ann,p_model,kalshi_prob,odds,edge_pct,kelly_pct,stake,volume,event_ticker
-2026-11-22T16:48:08.196138+00:00,XRP,KXXRP,KXXRP-26NOV2217-B0.9299500,"Ripple price at Nov 22, 2026 at 5pm EST?",$0.92 to 0.9399,between,0.92,0.9399,no,buy,2026-11-22T22:00:00Z,5.2,0.9286,88.8,0.525,0.386,2.588,35.9,9.4,2.47,462.58,KXXRP-26NOV2217
