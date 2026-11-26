@@ -1,2 +1,2 @@
 ts,asset,series,market_ticker,title,sub_title,strike_type,floor,cap,side,action,close_time,hours_left,spot,sigma_ann,p_model,kalshi_prob,odds,edge_pct,kelly_pct,stake,volume,event_ticker
-2026-11-25T20:56:08.557891+00:00,XRP,KXXRP,KXXRP-26NOV2517-B0.9299500,"Ripple price at Nov 25, 2026 at 5pm EST?",$0.92 to 0.9399,between,0.92,0.9399,no,buy,2026-11-25T22:00:00Z,1.06,0.9397,91.6,0.507,0.477,2.095,6.2,5.6,1.45,263.32,KXXRP-26NOV2517
+2026-11-26T03:20:30.674995+00:00,SOL,KXSOLD,KXSOLD-26NOV2523-T71.2499,"SOL price on Nov 25, 2026?",$71.25 or above,greater,71.2499,,yes,buy,2026-11-26T04:00:00Z,0.66,71.115,99.5,0.384,0.376,2.659,2.0,1.2,0.29,392.65,KXSOLD-26NOV2523
